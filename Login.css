@@ -1,0 +1,138 @@
+.login-page{
+    background: url(../../../public/images1/image3.jpg);
+    background-position: center;
+    background-size: cover;
+    /* padding-top: 160px;
+    padding-bottom: 130px; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginForm{
+    width: 30%;
+    padding: 46px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(240, 240, 240, 0.781);
+    border-radius: 10px;
+}
+  .inputsign{
+    width: 76%;
+    padding: 7px;
+    margin: 7px 0px;
+    border: none;
+    box-shadow: 1px 1px 4px rgb(138, 138, 138);
+    outline:none;
+    font-size: 16px;
+    color: gray;
+    font-weight: 540;
+}
+
+.forgotpassword{
+    color: darkslateblue;
+    text-decoration: none;
+    padding: 5px 0px;
+}
+.logintp{
+    margin-bottom: 5px;
+    color: navy;
+    text-align: center;
+    font-size: 25px;
+}
+.logintpo{
+    margin-bottom: 35px;
+    color: rgba(0, 0, 128, 0.658);
+    text-align: center;
+}
+.loginBtn{
+    width: 76%;
+    padding: 7px;
+    margin: 7px 0px;
+    border: none;
+    background-color: rgb(10, 15, 255);
+    outline:none;
+    transition: all 0.3s linear;
+    font-size: 16px;
+    font-weight: 560;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 30PX;
+}
+.loginBtn:hover{
+    background-color: rgb(15, 15, 99);
+    color:white
+}
+.asign{
+    padding-top: 24px;
+    display: flex;
+    justify-content: center;
+    color: darkslateblue;
+}
+.signupfm{
+    color: crimson;
+    padding-left: 0px;
+    cursor: pointer;
+}
+  @media screen and (max-width:1200px) {
+    .loginForm {
+      width: 45%;
+      }
+  }
+  @media screen and (max-width:850px) {
+    .loginForm {
+      width: 70%;
+      }
+      /* .login-page{
+       padding: 30px 0px;
+    } */
+  }
+  @media screen and (max-width:550px) {
+    .loginForm {
+      width: 84%;
+      }
+      .inputsign{
+        width: 87%;
+    }
+    /* .login-page{
+      padding-top: 0px;
+  } */
+  }
+  @media screen and (max-width:390px) {
+    .loginForm {
+      width: 88%;
+      box-shadow:none;
+      }
+
+  } 
+
+  @media screen and (max-width:300px) {
+    .inputsign{
+      width: 86%;
+      padding: 4px;
+      margin: 4px 0px;
+      font-size: 12px;
+  }
+  .loginBtn{
+    width: 86%;
+    padding: 4px;
+    margin: 4px 0px;
+    font-size: 12px;
+}
+.asign{
+  padding-top: 9px;
+}
+  .login-page{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.loginForm{
+  padding: 16px 10px;
+}
+.logintpo{
+  margin-bottom: 7px;
+}
+  }
